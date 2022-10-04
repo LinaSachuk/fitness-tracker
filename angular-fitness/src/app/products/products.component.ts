@@ -25,4 +25,8 @@ onAddProduct(){
   this.products.push(this.productName)
 
 }
+
+onRemovedProduct(productName:string){
+  this.products = this.products.filter(product => product !== productName)
+}
 }
