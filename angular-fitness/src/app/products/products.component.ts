@@ -24,7 +24,9 @@ export class ProductsComponent implements OnInit {
 
 onAddProduct(form:NgForm){
   console.log(form)
-  // this.products.push(this.productName)
+  if(form.valid){
+    this.products.push(form.value.productName)
+  }
 
 }
 
