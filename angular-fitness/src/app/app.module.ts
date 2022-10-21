@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
@@ -45,6 +46,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
+    FlexLayoutModule,
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],
