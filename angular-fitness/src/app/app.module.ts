@@ -47,6 +47,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
     MatFormFieldModule,
     MatInputModule,
     FlexLayoutModule,
+    FormsModule,
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],
