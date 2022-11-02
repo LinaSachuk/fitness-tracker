@@ -18,6 +18,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatListModule } from '@angular/material/list';
 
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
@@ -58,6 +59,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatCheckboxModule,
     MatSidenavModule,
     MatToolbarModule,
+    MatListModule,
   ],
   providers: [ProductsService],
   bootstrap: [AppComponent],
